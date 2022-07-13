@@ -5,7 +5,7 @@ import "github.com/gin-gonic/gin"
 type Handler struct {
 }
 
-func (h *Handler)InitRoutes() *gin.Engine {
+func (h *Handler) InitRoutes() *gin.Engine {
 	router := gin.New()
 
 	auth := router.Group("/auth")
@@ -31,7 +31,7 @@ func (h *Handler)InitRoutes() *gin.Engine {
 				items.GET("/:item_id", h.getItemByID)
 				items.PUT("/:item_id", h.updateItem)
 				items.DELETE("/:item_id", h.deletItem)
-			}	
+			}
 		}
 	}
 
