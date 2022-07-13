@@ -1,4 +1,4 @@
-package go
+package goss
 
 type User struct {
 	Id:		 int 	`json:"-"`

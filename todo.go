@@ -1,4 +1,4 @@
-package go
+package goss
 
 type Todolist struct {
 	Id 			int    `json:"id"`
