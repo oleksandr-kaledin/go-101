@@ -1,10 +1,9 @@
-
 package main 
 
 import (
-	"fmt"
+	"https://github.com/oleksandr-kaledin/go-101"
+	"https://github.com/oleksandr-kaledin/go-101/tree/main/pkg/handler"
 	"log"
-	"gopls": { "ui.semanticTokens": true }
 )
 
 func main() {
