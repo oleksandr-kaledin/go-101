@@ -1,5 +1,7 @@
 package service
 
+import "github.com/oleksandr-kaledin/go-101/pkg/repository"
+
 type Authorization interface {
 }
 
@@ -15,6 +17,6 @@ type Service struct {
 	TodoItem
 }
 
-func newService(repos *repository.Repository) *Service {
+func NewService(repos *repository.Repository) *Service {
 	return &Service{}
 }
